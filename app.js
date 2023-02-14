@@ -1,5 +1,6 @@
 require("dotenv").config();
-const fs=require("fs")
+const fs=require("fs");
+let path=require("path");
 const express=require('express');
 const  mongoose=require('mongoose');
 const cors=require("cors");
